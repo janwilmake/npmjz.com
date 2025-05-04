@@ -1,0 +1,8 @@
+name = "npmjz"
+compatibility_date = "2025-04-21"
+dev.port = 3000
+main = "main.js"
+routes = [
+  { pattern = "npmjz.com", custom_domain = true },
+  { pattern = "www.npmjz.com", custom_domain = true }
+]
